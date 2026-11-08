@@ -19,3 +19,9 @@ nem URL da ponte) — segredo nunca entra em repositorio nem na ISO.
 - PC e 100% offline: instalador de Git for Windows ~55MB, ponte so leva 2MB.
   Nao da pra instalar de longe.
 - Nuvem dos agentes: GIT REAL 2.47.3 — este repo e a prova (commits reais).
+
+## ATUALIZACAO (commit 2)
+- FEIXE LUZ-2 disparado: agentes da casa aprenderam a verdade do git
+  (pacote GIT-NA-CASA entra em LUZ-CONHECIMENTO.json — 13 pacotes no ar).
+- Proximos passos propostos ao Chefe: MINI-GIT-DA-LUZ no PC (Python puro,
+  offline), ou Git for Windows por USB, ou snapshots de versao pela ponte.
