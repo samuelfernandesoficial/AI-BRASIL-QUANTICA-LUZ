@@ -1,0 +1,60 @@
+{
+  "data": "2026-11-08",
+  "metodo": "curl POST no PC do Chefe contra 127.0.0.1:8544; tempo vem do campo 'segundos' da resposta",
+  "testes_ponta_a_ponta": [
+    {
+      "id": "primeiro-teste",
+      "pergunta": "teste inicial ponta a ponta",
+      "fonte": "NUVEM",
+      "segundos": 2.4,
+      "cpu_do_pc": "~0%"
+    },
+    {
+      "id": "protocolo-da-luz",
+      "pergunta": "O QUE E O PROTOCOLO DA LUZ?",
+      "fonte": "NUVEM",
+      "segundos": 2.2,
+      "resposta_resumo": "sistema que injeta conhecimento instantaneamente nos agentes via feixes gravados em JSON"
+    },
+    {
+      "id": "verdade-do-git",
+      "pergunta": "MEU PC TEM GIT?",
+      "fonte": "NUVEM",
+      "segundos": 2.0,
+      "resposta": "Nao, o seu PC nao tem Git instalado."
+    },
+    {
+      "id": "repo-no-github",
+      "pergunta": "QUAL O NOME DO NOSSO REPO PRIVADO NO GITHUB?",
+      "fonte": "NUVEM",
+      "segundos": 2.3,
+      "resposta": "samuelfernandesoficial/AI-BRASIL-QUANTICA-LUZ"
+    }
+  ],
+  "feixe_da_luz": {
+    "rota": "POST /api/luz",
+    "recebidos": 14,
+    "tempo_ms": 0,
+    "resposta_do_nucleo": "CONHECIMENTO CARREGADO NA VELOCIDADE DA LUZ"
+  },
+  "sonda_da_nuvem_ms": [
+    1486,
+    2644
+  ],
+  "git_no_pc": {
+    "existe": false,
+    "procurado_em": [
+      "PATH",
+      "Program Files",
+      "Program Files (x86)",
+      "C:/Git",
+      "AppData",
+      "chocolatey",
+      "scoop",
+      "msys64",
+      "otiginal",
+      "Desktop",
+      "S:/"
+    ]
+  }
+}

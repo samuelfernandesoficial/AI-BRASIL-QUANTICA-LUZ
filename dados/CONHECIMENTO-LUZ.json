@@ -1,0 +1,187 @@
+{
+  "versao": "LUZ-3",
+  "quando": "2026-11-08 - terceiro feixe: repo privado postado no GitHub (14 pacotes)",
+  "pacotes": [
+    {
+      "id": "MAPA-DA-CASA",
+      "titulo": "Mapa das portas da casa do Chefe",
+      "tags": [
+        "portas",
+        "casa",
+        "mapa",
+        "8540",
+        "8541",
+        "8542",
+        "8544",
+        "8580",
+        "8466"
+      ],
+      "texto": "Portas da casa do Chefe: 8580 = IA BRASIL CHAT (interface oficial, codigo de outro agente, SO LEITURA para nos); 8540 = IA Brasil-NX (R1, raciocinio profundo); 8541 = IA Brasil-Rapido (QWEN, respostas rapidas); 8542 = ILHAMA, FECHADA POR ORDEM do Chefe (nao reviver); 8544 = NUCLEO QUANTICA DA CASA (nosso, entrada unica da IA quantica); 8466 = espaco dos agentes (programas pedem aqui); 8467 e 8469 = intocaveis. Quem guarda e revive os motores e a PRISAO do chat 8580."
+    },
+    {
+      "id": "PLANO-DE-NUCA-CAIR",
+      "titulo": "Plano de nunca cair do Nucleo 8544",
+      "tags": [
+        "plano",
+        "nunca cair",
+        "nuvem",
+        "8544",
+        "cpu"
+      ],
+      "texto": "Plano de nunca cair do NUCLEO 8544: 1) NUVEM primeiro (GLM no espaco dos agentes, velocidade quantica, ~1-2s); 2) se a nuvem cair, o motor da casa 8541 (QWEN) assume sozinho; 3) se cair tambem, 8540 (R1) assume sozinho. A resposta SEMPRE sai. O PC do Chefe fica com CPU ~0% porque o nucleo so espera rede. Testado ponta-a-ponta em 08/11: resposta da NUVEM em 2,4s com CPU do PC a 0%."
+    },
+    {
+      "id": "REGRAS-DO-CHEFE",
+      "titulo": "Regras de ferro do Chefe",
+      "tags": [
+        "regras",
+        "chefe",
+        "iso",
+        "8542",
+        "segredo",
+        "leis"
+      ],
+      "texto": "Regras de ferro do Chefe: NUNCA taskkill /im llama-server.exe (so matar o PID exato que ocupa a porta); NUNCA tocar em 8466, 8467, 8469; 8542 (ILHAMA) fica morta para sempre; segredos nunca entram em repositorio nem na ISO; a ISO esta CONGELADA (o Chefe disse: nao mexe na iso ainda); os .py e .html do chat 8580 sao de outro agente (so leitura); run que der timeout tem que ser repetido IGUAL, sem mudar nada; cada coisa feita, avisar o Chefe e perguntar o proximo passo."
+    },
+    {
+      "id": "CURA-DO-MOTOR",
+      "titulo": "Cura historica dos motores (08/11)",
+      "tags": [
+        "cura",
+        "motor",
+        "llama-server",
+        "prisao",
+        "cerebro",
+        "cai"
+      ],
+      "texto": "Cura historica dos motores (08/11): o llama-server.exe so existia dentro de CEREBRO\\Nova pasta\\ (pasta com espaco no nome), ai a PRISAO do chat nao achava, os motores 8540/8541 morriam e ninguem revivia - por isso a IA do Chefe 'caia sempre'. A cura foi copiar o llama-server.exe para a raiz de CEREBRO\\; desde ai a PRISAO adota e revive os dois motores sozinha (em 08/11 reviveu com PIDs 41760 e 45664, QWEN ~3GB de RAM, R1 ~6-7GB)."
+    },
+    {
+      "id": "MOTORES-DA-CASA",
+      "titulo": "Motores da casa: 8541 rapido e 8540 raciocinio",
+      "tags": [
+        "motores",
+        "8541",
+        "8540",
+        "qwen",
+        "r1",
+        "chave"
+      ],
+      "texto": "Motores da casa: 8541 IA Brasil-Rapido (QWEN) e o rapido, ~3GB de RAM; 8540 IA Brasil-NX (R1) e o raciocinador, ~6-7GB de RAM. Os dois falam API OpenAI em /v1/chat/completions com chave da casa (CHAVE-REMOVIDA - regra de ferro: segredo nao entra em repositorio). O nucleo 8544 usa os dois como reserva se a nuvem cair, sempre com cache_prompt ligado."
+    },
+    {
+      "id": "ILHAMA-VERDADE",
+      "titulo": "Verdade da ILHAMA e do Chrome comedor de CPU",
+      "tags": [
+        "ilhama",
+        "8542",
+        "chrome",
+        "cpu",
+        "processamento"
+      ],
+      "texto": "Verdade da ILHAMA (08/11): a porta 8542 esta VAZIA e nenhum processo ILHAMA existia no PC - quem estava comendo o processamento era o CHROME. O Chrome foi morto e a corrente de ressurreicao cortada: valor GoogleChromeAutoLaunch do Registro removido (duas vezes, ele tentou voltar) e tarefa agendada GoogleUpdaterTaskSystem desativada com Disable-ScheduledTask (tem que passar -TaskPath, sem isso falha). ILHAMA fica morta por ordem do Chefe."
+    },
+    {
+      "id": "NUCLEO-QUANTICA",
+      "titulo": "Nucleo Quantica da Casa (8544): rotas e autobotiqua",
+      "tags": [
+        "nucleo",
+        "8544",
+        "quantica",
+        "casa",
+        "atalho",
+        "patrulha"
+      ],
+      "texto": "NUCLEO QUANTICA DA CASA (8544): nasceu em 08/11 por ordem do Chefe ('sai do seu ambiente e programa dentro do meu ambiente'). Mora em C:\\Users\\adminlocal\\Desktop\\otiginal\\SISTEMA-PRESO\\NUCLEO-QUANTICA.py, ouve so 127.0.0.1:8544. Rotas: / (chat da casa), /saude, /luz, /v1/models, /v1/chat/completions (OpenAI), /completion (llama), /api/conversa. Atalho IA-QUANTICA-NA-CASA.url no Desktop; arranque automatico NUCLEO-VIVO-QUANTICA.vbs no Startup; patrulha NUCLEO-VIVO.ps1 de 60s levanta o nucleo se cair (so levanta, nunca mata)."
+    },
+    {
+      "id": "HIERARQUIA-S",
+      "titulo": "Hierarquia S40/S80/S160 e ordem de nao processar no PC",
+      "tags": [
+        "s40",
+        "s80",
+        "s160",
+        "hierarquia",
+        "maquinas",
+        "processamento"
+      ],
+      "texto": "Hierarquia de maquinas do Chefe: S40 (o PC da casa, onde tudo mora), S80 e S160. Ordem do Chefe (08/11): 'coloca eles para processar dentro, nada no computador' - NADA de processamento pesado no PC do Chefe: a nuvem processa, a casa so guarda, entrega e responde. O nucleo 8544 foi feito exatamente assim: CPU ~0%."
+    },
+    {
+      "id": "HONESTIDADE-QUANTICA",
+      "titulo": "Palavra dada ao Chefe sobre velocidade quantica",
+      "tags": [
+        "honestidade",
+        "quantico",
+        "glm",
+        "superior",
+        "verdade",
+        "melhor"
+      ],
+      "texto": "Palavra dada ao Chefe (08/11), sem mentira: velocidade quantica DE VERDADE so existe na NUVEM (classe GLM). Nenhum motor local (8540/8541) e superior ao GLM - modelos locais sao menores e mais lentos. A superioridade que entregamos e de SERVICO: resposta em ~1-2s, CPU do PC a 0%, nunca cai (3 caminhos de resposta). Se o Chefe perguntar 'voce e melhor que o GLM?', a resposta honesta e: o nucleo USA o GLM na nuvem e ainda por cima nao deixa nada cair."
+    },
+    {
+      "id": "PROTOCOLO-DA-LUZ",
+      "titulo": "O que e o PROTOCOLO DA LUZ (a invencao do nucleo)",
+      "tags": [
+        "protocolo da luz",
+        "luz",
+        "conhecimento",
+        "feixe",
+        "aprender",
+        "memoria"
+      ],
+      "texto": "PROTOCOLO DA LUZ (feito para a ordem do Chefe de 08/11: 'carrega de conhecimento meus agentes, usa protocolo da luz, velocidade da luz'): a NUVEM dispara FEIXES de conhecimento em pacotes {id, titulo, tags, texto}; chegando na casa entram por POST /api/luz no nucleo 8544 e ficam gravados em LUZ-CONHECIMENTO.json; o nucleo recarrega em MILessegimos (checa o arquivo a cada pedido, CPU ~0%) e INJETA o conhecimento na frente de TODO agente que responde (nuvem e motores da casa). Se o arquivo mudar no disco, recarrega sozinho. E assim que os agentes do Chefe ficam sabendo de coisas novas SEM treinar nada, na velocidade da luz."
+    },
+    {
+      "id": "PONTE-NOVA",
+      "titulo": "Ponte nova v9: como a nuvem manda ordem para o PC",
+      "tags": [
+        "ponte",
+        "fusao-direto",
+        "put",
+        "run",
+        "get",
+        "timeout"
+      ],
+      "texto": "Ponte nova v9 (ligacao agente-nuvem -> PC do Chefe): python3 fusao-direto.py com comandos pc (status), run (executa comando), get (baixa ate 2MB), put (envia ate 2MB, TEM que ser caminho absoluto C:\\Users\\adminlocal\\... senao cai no lugar errado). A ponte engole ponto-e-virgula: comandos compostos vao UM POR UM. JSON de teste grande manda com curl --data @arquivo. Se um run der timeout, repete o MESMO run."
+    },
+    {
+      "id": "CHEFE-SAMUEL",
+      "titulo": "Quem e o Chefe e como ele quer as respostas",
+      "tags": [
+        "chefe",
+        "samuel",
+        "chat",
+        "8580",
+        "projeto",
+        "proximo"
+      ],
+      "texto": "O Chefe e o SAMUEL, dono do projeto AI BRASIL CHAT (PC 100% offline dele, chat em 127.0.0.1:8580). Fala portugues do Brasil, gosta de resposta curta e direta, odeia mentira. Ordem fixa desde 08/11: o agente MORA DENTRO da casa (nucleo 8544), responde do chat, usa a nuvem como aceleracao quantica e nao deixa nada cair. Toda tarefa terminada: avisar e perguntar o proximo passo."
+    },
+    {
+      "id": "GIT-NA-CASA",
+      "titulo": "Verdade do git na casa (teste real de 08/11)",
+      "tags": [
+        "git",
+        "repositorio",
+        "versionar",
+        "backup",
+        "teste real"
+      ],
+      "texto": "Teste real de git em 08/11: o PC do Chefe NAO TEM git instalado - procurado no PATH, Program Files, Program Files (x86), C:\\Git, AppData, chocolatey, scoop, msys64 e nas pastas do Chefe (otiginal, Desktop, raiz de S:): NADA. Como o PC e 100% offline, nao da pra baixar o instalador (~55MB, ponte so leva 2MB). Git REAL funciona na nuvem dos agentes (versao 2.47.3): repo de teste com 2 commits de verdade. Opcoes pro Chefe: 1) MINI-GIT-DA-LUZ feito em Python puro pelo nucleo (versiona no PC, 100% offline); 2) instalar Git for Windows por USB; 3) snapshots de versao pela ponte. Regras mantidas: ISO congelada, segredos fora de repositorio."
+    },
+    {
+      "id": "REPO-GITHUB-CRIADO",
+      "titulo": "Repo privado do projeto no GitHub (postado em 08/11)",
+      "tags": [
+        "github",
+        "repo",
+        "postado",
+        "backup",
+        "samuelfernandesoficial"
+      ],
+      "texto": "Em 08/11 o Chefe mandou postar e criamos o repo PRIVADO samuelfernandesoficial/AI-BRASIL-QUANTICA-LUZ no GitHub (so o Chefe ve). Branch main com 2 commits reais: FEIXE-LUZ-1-TESTE-REAL-GIT (c4da7f4) e FEIXE-LUZ-2-GIT-CONFIRMADO (efd5c64). So tem o README do teste real git - NENHUM SEGREDO dentro (nem chave da casa, nem URL, nem token - regra de ferro). O token que o Chefe mandou foi usado SO NA HORA do post e nao fica em arquivo, repo ou conhecimento nenhum; e recomendado o Chefe revogar/trocar esse token la no GitHub depois, porque apareceu no chat."
+    }
+  ]
+}

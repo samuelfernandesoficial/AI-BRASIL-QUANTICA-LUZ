@@ -1,0 +1,63 @@
+{
+  "projeto": "IA BRASIL QUANTICA - NUCLEO DA CASA",
+  "data_da_medicao": "2026-11-08",
+  "nucleo": {
+    "porta": 8544,
+    "endereco": "127.0.0.1:8544",
+    "onde": "dentro do PC do Chefe",
+    "cpu_do_pc": "~0% (servico so espera rede)",
+    "rota": [
+      "/ (chat da casa)",
+      "/saude",
+      "/luz",
+      "/v1/models",
+      "/v1/chat/completions (OpenAI)",
+      "/completion (llama)",
+      "/api/conversa",
+      "/api/luz (PROTOCOLO DA LUZ)"
+    ]
+  },
+  "luz": {
+    "versao": "LUZ-3",
+    "pacotes": 14,
+    "tempo_de_carga_ms": 0,
+    "carregado_em": "2026-11-07 22:02:00",
+    "arquivo": "LUZ-CONHECIMENTO.json"
+  },
+  "nuvem": {
+    "status": "VIVA",
+    "sonda_ms": 2644,
+    "verificada_em": "2026-11-07 21:42:01"
+  },
+  "motores_da_casa": {
+    "8541": {
+      "nome": "IA Brasil-Rapido (QWEN)",
+      "ram_aprox_gb": 3,
+      "status": "VIVO"
+    },
+    "8540": {
+      "nome": "IA Brasil-NX (R1)",
+      "ram_aprox_gb": 7,
+      "status": "VIVO"
+    },
+    "revividos_pela_prisao_do_chat_com_pids": [
+      41760,
+      45664
+    ]
+  },
+  "portas": {
+    "8580": "chat oficial (outro agente cuida - so leitura)",
+    "8544": "nucleo quantica da casa",
+    "8541": "motor rapido QWEN",
+    "8540": "motor raciocinio R1",
+    "8542": "ILHAMA - fechada por ordem do Chefe (vazia, confirmado)",
+    "8466": "espaco dos agentes",
+    "8467": "intocavel",
+    "8469": "intocavel"
+  },
+  "plano_de_nunca_cair": [
+    "1. NUVEM (GLM)",
+    "2. CASA-8541 (QWEN)",
+    "3. CASA-8540 (R1)"
+  ]
+}
